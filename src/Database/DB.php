@@ -35,7 +35,6 @@ class DB
         
             self::$db = $db;
         } catch (\Throwable $th) {
-            die(print_r($th->getMessage(), true));
             $db->close();
             throw $th;
         }

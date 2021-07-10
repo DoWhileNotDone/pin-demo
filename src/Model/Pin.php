@@ -18,7 +18,7 @@ class Pin
     /**
      * Getter
      *
-     * @return void
+     * @return int|null
      */
     public function getPin(): int|null
     {
